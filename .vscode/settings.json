@@ -1,0 +1,26 @@
+{
+    "blade.format.enable": true,
+    "breadcrumbs.enabled": true,
+    "editor.renderWhitespace": "all",
+    "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
+    "emmet.triggerExpansionOnTab": true,
+    "files.associations": {
+        ".php-cs": "php"
+    },
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "telibit_api_cms/application/tests/_ci_phpunit_test/tmp/*": true,
+    },
+    "files.trimTrailingWhitespace": true,
+    "php-cs-fixer.config": ".php-cs",
+    "php-cs-fixer.executablePath": "/usr/local/bin/php-cs-fixer",
+    "php-cs-fixer.formatHtml": true,
+    "php.suggest.basic": false,
+    "phpcs.standard": "PSR2",
+    "workbench.editor.enablePreview": false,
+    "git.ignoreLimitWarning": true
+}
