@@ -2,7 +2,6 @@
 
 namespace App\Traits;
 
-
 trait ApiIndexCollection
 {
 
@@ -11,8 +10,14 @@ trait ApiIndexCollection
      *
      * @return Array
      */
-    public function index() : Array
+    public function index(): array
     {
-        return [];
+        //return $this->modal::all()->toArray();
+        return $this->modal::paginate(10)->toArray();
+    }
+
+    public function show($id)
+    {
+        return $this->modal::findOrFail($id);
     }
 }
