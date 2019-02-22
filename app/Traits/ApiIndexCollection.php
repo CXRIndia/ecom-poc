@@ -12,7 +12,11 @@ trait ApiIndexCollection
      */
     public function index(): array
     {
-        //return $this->modal::all()->toArray();
+        //$modal e.g Post -> title, body
+        // where cluas -->  /?filter[title]=xyz&filter[body]=abc
+
+        //{ data: [] }
+
         return $this->modal::paginate(10)->toArray();
     }
 

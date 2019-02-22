@@ -10,5 +10,4 @@ class UserController extends ApiController
 {
     use ApiIndexCollection;
     protected $modal = User::class;
-
 }
